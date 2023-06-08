@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Bookwiz Library</h1>
+
+  <div class="container" id="libraryContainer">
+    <!-- Book cards will be dynamically added here -->
+  </div>
+
+  <form id="newBookForm" style="display: none;">
+    <input type="text" id="titleInput" placeholder="Title" required>
+    <input type="text" id="authorInput" placeholder="Author" required>
+    <input type="number" id="pagesInput" placeholder="Number of Pages" required>
+    <label for="readInput">Read:</label>
+    <input type="checkbox" id="readInput">
+    <button type="submit">Add Book</button>
+  </form>
+
+  <button id="newBookButton">NEW BOOK</button>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
